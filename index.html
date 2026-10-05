@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Bancário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🏦 Sistema Bancário</h1>
+
+        <div class="saldo">
+            <p>Saldo atual</p>
+            <h2 id="saldo">R$ 0,00</h2>
+        </div>
+
+        <div class="acoes">
+            <button onclick="depositar()">Depositar</button>
+            <button onclick="sacar()">Sacar</button>
+            <button onclick="mostrarExtrato()">Ver Extrato</button>
+        </div>
+
+        <div class="extrato">
+            <h2>Extrato</h2>
+            <div id="listaExtrato">
+                <p>Nenhuma movimentação.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
