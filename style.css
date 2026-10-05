@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f2937;
+}
+
+.saldo {
+    background: #2563eb;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.saldo p {
+    margin-bottom: 8px;
+}
+
+.saldo h2 {
+    font-size: 28px;
+}
+
+.acoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.extrato {
+    margin-top: 25px;
+}
+
+.extrato h2 {
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+#listaExtrato {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.movimentacao {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.movimentacao:last-child {
+    border-bottom: none;
+}
