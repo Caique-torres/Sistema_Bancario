@@ -4,7 +4,7 @@ Uma aplicação de sistema bancário desenvolvida em Python, criada para simular
 
 ## Demonstração
 
-[Clique aqui para acessar o Sistema Bancário](https://caique-torres.github.io/Sistema_Bancario/)
+[Clique aqui para acessar o Sistema Bancário](https://github.com/Caique-torres/Sistema_Bancario)
 
 ## Funcionalidades
 
